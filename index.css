@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: rgb(225, 235, 244);
 }
 .container {
   width: calc(100vw - 48px);
@@ -11,6 +10,7 @@
   justify-content: space-between;
 
   padding: 0px 24px;
+  background-color: rgb(225, 235, 244);
 
   header {
     display: flex;
@@ -73,9 +73,6 @@
       border-radius: 12px;
       overflow: hidden;
 
-      * {
-        background-color: white;
-      }
       .leftAside {
         height: 100%;
         display: flex;
@@ -253,10 +250,6 @@
       background-color: white;
       border-radius: 12px;
       overflow: hidden;
-
-      * {
-        background-color: white;
-      }
 
       .head {
         width: calc(100%-20px);
